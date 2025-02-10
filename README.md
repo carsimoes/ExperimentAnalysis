@@ -161,4 +161,6 @@ Apesar de termos chegado a possibilidades finitas, facilitando o trabalho da Bel
 
 O segundo ponto é que os dados coletados devem incluir toda a área de experimentação - ou seja, eles devem ser representativos da região na qual estamos realizando o estudo. Por fim, não podemos esquecer que nesse cenário a coleta de dados é custosa, já que significa um investimento em ingredientes. Portanto, desejamos que o número de dados coletados seja o menor possível.
 
+![alt text](image-10.png)
+
 No próximo vídeo, descobriremos qual é a melhor abordagem para atendermos a essa série de questões.
