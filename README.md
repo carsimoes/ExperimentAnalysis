@@ -246,3 +246,10 @@ E abaixo, os pilares para a coleta de dados:
 
 ![alt text](image-17.png)
 
+
+Pontos experimentais normalizados
+
+Como dito, tradicionalmente o planejamento fatorial utiliza as variáveis normalizadas entre -1 e +1. Essa normalização evita termos que lidar com variáveis que possuem magnitudes muito diferentes. Além disso, o uso de valores normalizados permite a inserção de variáveis não numéricas no experimento. Por exemplo, a Bel poderia avaliar o efeito de duas marcas de fermento na quantidade de cupcakes produzidos. Vamos chamar essas duas marcas de A e B. Se não tivéssemos lidando com variáveis normalizadas, não seria direta a inclusão do efeito da marca do fermento na resposta analisada no experimento. Contudo, trabalhando com variáveis normalizadas, essa inserção torna-se natural. Para isso, bastaria dizer que, por exemplo, a marca A será o nível -1 e a marca B o +1. Pronto! Seremos capazes de analisar essa variável não numérica em conjunto com as demais, uma vez que todas elas estão definidas entre os limites -1 e +1.
+
+
+Que tal agora você explorar os conhecimentos adquiridos ao longo desta aula. Como sugestão, pense em outros problemas que poderiam ser resolvidos através de um experimento (Quem sabe um outra receita). Formule o objetivo, defina as variáveis manipuláveis e a resposta do experimento, esboce a área de experimentação e como ficaria o planejamento fatorial deste experimento.
