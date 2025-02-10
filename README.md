@@ -86,3 +86,63 @@ Chamar um estatístico depois que o experimento foi feito pode ser o mesmo que p
 Devemos nos planejar, freando um pouco a ansiedade de obter dados e respostas rapidamente. Planejar o experimento também significa que os dados utilizados na fase de análise e estatística terão qualidade adequada para responder às nossas perguntas. No próximo vídeo aprenderemos a planejar a coleta de dados.
 
 ![alt text](image-1.png)
+
+
+4 - Coleta de dados
+
+Vamos dar continuidade à tarefa de ajudar a Bel a planejar seu experimento. Agora precisamos definir as faixas de variações nas quantidades de farinha e chocolate, algo que deve ser feito de forma bastante cuidadosa, pois será a partir dessas faixas que coletaremos nossos dados experimentais.
+
+Para definirmos essas faixas, imaginaremos que as quantidades de farinha e chocolate, em quilogramas, podem ser representadas por duas retas. Nelas teremos um ponto de origem, onde as quantidades são iguais a zero. À direita deste ponto estarão os pontos positivos, e à esquerda vamos supor que existam valores negativos. Em ambos os sentidos das retas, os valores se estendem infinitamente.
+
+duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ambas possuem, no centro, uma marcação com o valor "0". mais acima, temos a palavra "negativos", abrangendo os valores à esquerda da marcação; e "positivos", abrangendo valores à direita da marcação. ambas as palavras acompanham, um pouco abaixo, o símbolo de infinito.
+
+Isso significa que a Bel tem infinitas possibilidades de coletas de dados, o que não é ideal para o experimento dela, certo? Sendo assim, precisaremos usar o bom senso e nosso conhecimento sobre a receita de modo a limitarmos essa faixa.
+
+Nesse processo, a primeira questão que precisamos nos fazer é: há quantidades negativas? Quantas vezes já fomos ao mercado comprar "menos 500 gramas" de farinha ou de chocolate? Realmente, nenhuma. Portanto, parece que não existem valores negativos em nosso experimento.
+
+Claro, é necessário tomar bastante cuidado nesse tipo de questionamento, afinal ele é bastante específico desse cenário - em outras condições e experimentos, podem existir números negativos. Por exemplo, poderíamos trabalhar em um experimento que avalia a influência da temperatura na qualidade de um produto, e sabemos que a temperatura pode assumir valores negativos. Ou seja, essa decisão vai depender do sistema que estamos analisando durante o experimento.
+
+edição da figura anterior. a palavra "negativos" e o símbolo de infinito que a acompanhava são cobertos por um xis, e a parte das retas paralelas que representava os números abaixo da marcação "0" foi removida, restando somente as partes referentes aos valores positivos. 
+
+Ficamos agora com praticamente metade das possibilidades, já que só manteremos os valores positivos. Contudo, isso mantém a necessidade de infinitos experimentos, já que ainda existem infinitos valores positivos. A ideia agora é restringirmos ainda mais essa faixa.
+
+duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ambas possuem, no ponto inicial, uma marcação com o valor "0". mais acima, temos a palavra "positivos", abrangendo valores à direita da marcação, e acompanhada, um pouco abaixo, do símbolo de infinito.
+
+Para fazermos essa restrição, vamos definir limites inferiores e superiores, e é a partir deles que coletaremos os dados experimentais. Com o conhecimento que temos atualmente, podemos fazer algumas suposições gerais sobre quais serão esses valores, a começar pelo limite inferior. Provavelmente esse limite inferior não será 0, pois, segundo a nossa receita, é impossível fazer um cupcake de chocolate sem farinha ou chocolate.
+
+Já em relação ao limite ao superior, temos que respeitar a capacidade da cozinha da Bel - afinal, não utilizaremos uma tonelada de farinha ou meia tonelada de chocolate. Para nos ajudar a restringir esses intervalos, a Bel nos informou que gostaria de assar fornadas de até 50 cupcakes.
+
+Para descobrirmos as quantidades aproximadas necessárias para produzirmos esse resultado, realizaremos uma pesquisa em revistas de culinária e livros de receitas. A esse tipo de pesquisa dá-se o nome de "revisão bibliográfica", e ela é extremamente importante no desenvolvimento e realização de qualquer experimento. Com essa revisão, seremos capazes de entender o que outras pessoas fizeram, e inclusive evitaremos cometer os mesmos erros que elas possam ter cometido.
+
+Após essa revisão bibliográfica, chegamos à conclusão de que, para o cenário da Bel, os melhores limites inferiores e superiores são os da tabela abaixo:
+
+Inferior (kg)	Superior (kg)
+Farinha	0.5	1.5
+Chocolate	0.1	0.5
+Tendo definido os limites, colocaremos os pontos experimentais nas retas.
+
+duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). ela possui marcações no ponto "0", no ponto "0.5" e no ponto "1.5". a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ela possui marcações no ponto "0", no ponto "0.1" e no ponto "0.5"
+
+Em seguida, manteremos a reta da farinha na horizontal e transporemos a reta que representa as quantidades de chocolate para a vertical. Não é necessário se preocupar com a escala. Essa representação nos é bastante familiar, já que determina um plano cartesiano.
+
+plano cartesiano em que o eixo X representa a quantidade de farinha em quilogramas, com marcações marcações no ponto "0", no ponto "0.5" e no ponto "1.5". o eixo Y representa a quantidade de chocolate em quilogramas, com marcações no ponto "0", no ponto "0.1" e no ponto "0.5".
+
+Delimitaremos então a região da qual a Bel coletará os seus pontos experimentais para realizar as análises estatísticas.
+
+edição do plano cartesiano anterior. o encontro entre os pontos dos eixos X e Y foram utilizados para delimitar uma área retangular.
+
+Vamos simular essa coleta. Primeiramente, a Bel coleta um ponto, por exemplo 0.8 quilogramas de farinha e 0,3 quilogramas de chocolate. Ao fim, ela quantifica o número de porções resultante, nesse caso 1. em seguida, ela retira um novo ponto em outras condições, com 1.2 quilogramas de farinha, 0.4 quilogramas de chocolate, resultando em 2 porções.
+
+O problema desse processo é que existem infinitos pontos dentro dessa área, chamada de "área de experimentação". Será necessária uma nova abordagem. Vamos interpretar esses infinitos ensaios como uma população, que representa todos os ensaios possíveis de serem realizados. De dentro dessa população, retiraremos amostras finitas para inferirmos sobre as características da população.
+
+Esse tipo de lógica é muito parecida com a da inferência estatística, que é quando utilizamos amostras finitas e reduzidas para inferirmos informações de populações muito grandes de dados.
+
+Agindo desta forma, deixaremos de interpretar a área de experimentação como sendo composta de infinitos pontos, e passaremos a entendê-la como um conjunto de finitos pontos a partir dos quais a coleta de dados pode ser feita.
+
+edição do plano anterior. dentro da área retangular que fora delimitada, temos agora 117 pontos distribuídos em 9 fileiras de 13 pontos que cobrem grande parte da área desta figura
+
+Apesar de termos chegado a possibilidades finitas, facilitando o trabalho da Bel, ainda precisamos atender a alguns requisitos para que a definição de quais pontos serão coletados nessa amostra seja feita da melhor forma possível. O primeiro ponto é que devemos atender aos objetivos do experimento, ou seja, avaliar o efeito do chocolate e da farinha no número final de cupcakes produzidos.
+
+O segundo ponto é que os dados coletados devem incluir toda a área de experimentação - ou seja, eles devem ser representativos da região na qual estamos realizando o estudo. Por fim, não podemos esquecer que nesse cenário a coleta de dados é custosa, já que significa um investimento em ingredientes. Portanto, desejamos que o número de dados coletados seja o menor possível.
+
+No próximo vídeo, descobriremos qual é a melhor abordagem para atendermos a essa série de questões.
