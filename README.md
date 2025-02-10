@@ -94,6 +94,8 @@ Vamos dar continuidade à tarefa de ajudar a Bel a planejar seu experimento. Ago
 
 Para definirmos essas faixas, imaginaremos que as quantidades de farinha e chocolate, em quilogramas, podem ser representadas por duas retas. Nelas teremos um ponto de origem, onde as quantidades são iguais a zero. À direita deste ponto estarão os pontos positivos, e à esquerda vamos supor que existam valores negativos. Em ambos os sentidos das retas, os valores se estendem infinitamente.
 
+![alt text](image-2.png)
+
 duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ambas possuem, no centro, uma marcação com o valor "0". mais acima, temos a palavra "negativos", abrangendo os valores à esquerda da marcação; e "positivos", abrangendo valores à direita da marcação. ambas as palavras acompanham, um pouco abaixo, o símbolo de infinito.
 
 Isso significa que a Bel tem infinitas possibilidades de coletas de dados, o que não é ideal para o experimento dela, certo? Sendo assim, precisaremos usar o bom senso e nosso conhecimento sobre a receita de modo a limitarmos essa faixa.
@@ -102,9 +104,13 @@ Nesse processo, a primeira questão que precisamos nos fazer é: há quantidades
 
 Claro, é necessário tomar bastante cuidado nesse tipo de questionamento, afinal ele é bastante específico desse cenário - em outras condições e experimentos, podem existir números negativos. Por exemplo, poderíamos trabalhar em um experimento que avalia a influência da temperatura na qualidade de um produto, e sabemos que a temperatura pode assumir valores negativos. Ou seja, essa decisão vai depender do sistema que estamos analisando durante o experimento.
 
+![alt text](image-3.png)
+
 edição da figura anterior. a palavra "negativos" e o símbolo de infinito que a acompanhava são cobertos por um xis, e a parte das retas paralelas que representava os números abaixo da marcação "0" foi removida, restando somente as partes referentes aos valores positivos. 
 
 Ficamos agora com praticamente metade das possibilidades, já que só manteremos os valores positivos. Contudo, isso mantém a necessidade de infinitos experimentos, já que ainda existem infinitos valores positivos. A ideia agora é restringirmos ainda mais essa faixa.
+
+![alt text](image-4.png)
 
 duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ambas possuem, no ponto inicial, uma marcação com o valor "0". mais acima, temos a palavra "positivos", abrangendo valores à direita da marcação, e acompanhada, um pouco abaixo, do símbolo de infinito.
 
@@ -116,18 +122,26 @@ Para descobrirmos as quantidades aproximadas necessárias para produzirmos esse 
 
 Após essa revisão bibliográfica, chegamos à conclusão de que, para o cenário da Bel, os melhores limites inferiores e superiores são os da tabela abaixo:
 
+![alt text](image-5.png)
+
 Inferior (kg)	Superior (kg)
 Farinha	0.5	1.5
 Chocolate	0.1	0.5
 Tendo definido os limites, colocaremos os pontos experimentais nas retas.
 
+![alt text](image-6.png)
+
 duas retas paralelas na horizontal. a primeira parte da esquerda, figura de uma xícara de farinha, e aponta para a direita, recebendo o rótulo farinha (kg). ela possui marcações no ponto "0", no ponto "0.5" e no ponto "1.5". a segunda parte da figura de uma barra de chocolate e também aponta para a direita, com o rótulo "chocolate (kg)". ela possui marcações no ponto "0", no ponto "0.1" e no ponto "0.5"
 
 Em seguida, manteremos a reta da farinha na horizontal e transporemos a reta que representa as quantidades de chocolate para a vertical. Não é necessário se preocupar com a escala. Essa representação nos é bastante familiar, já que determina um plano cartesiano.
 
+![alt text](image-7.png)
+
 plano cartesiano em que o eixo X representa a quantidade de farinha em quilogramas, com marcações marcações no ponto "0", no ponto "0.5" e no ponto "1.5". o eixo Y representa a quantidade de chocolate em quilogramas, com marcações no ponto "0", no ponto "0.1" e no ponto "0.5".
 
 Delimitaremos então a região da qual a Bel coletará os seus pontos experimentais para realizar as análises estatísticas.
+
+![alt text](image-8.png)
 
 edição do plano cartesiano anterior. o encontro entre os pontos dos eixos X e Y foram utilizados para delimitar uma área retangular.
 
@@ -138,6 +152,8 @@ O problema desse processo é que existem infinitos pontos dentro dessa área, ch
 Esse tipo de lógica é muito parecida com a da inferência estatística, que é quando utilizamos amostras finitas e reduzidas para inferirmos informações de populações muito grandes de dados.
 
 Agindo desta forma, deixaremos de interpretar a área de experimentação como sendo composta de infinitos pontos, e passaremos a entendê-la como um conjunto de finitos pontos a partir dos quais a coleta de dados pode ser feita.
+
+![alt text](image-9.png)
 
 edição do plano anterior. dentro da área retangular que fora delimitada, temos agora 117 pontos distribuídos em 9 fileiras de 13 pontos que cobrem grande parte da área desta figura
 
