@@ -225,3 +225,24 @@ Agindo dessa forma, evitaremos problemas que podem surgir com variáveis manipul
 ![alt text](image-16.png)
 
 Agora que organizamos nossos dados experimentais, realizaremos os experimentos da Bel usando o planejamento fatorial, pois ele atende os objetivos discutidos anteriormente e possibilita que eles sejam atingidos realizando um pequeno número de ensaios. Nos próximos vídeos passaremos para a realização desses experimentos, a coleta de dados e sua análise estatística.
+
+
+Coleta de dados
+
+A princípio, poderíamos ter usado qualquer método para a escolha dos pontos experimentais.
+
+Para o caso da Bel, deve estar claro que a linha central que guiou a escolha do planejamento fatorial foi o fato de a coleta de dados ser custosa. Portanto, o planejamento fatorial surge com uma abordagem interessante para se obter informações sobre um sistema em estudo, usando para isso uma pequena quantidade de ensaios.
+
+Em outros contextos, a coleta de dados pode ser simples, barata e rápida. Por exemplo, poderíamos estar realizando um experimento para saber o comportamento de um usuário de um site ou app. Os dados nesse experimento seriam coletados automaticamente à medida que o usuário interagisse com a plataforma. Desse modo, podemos obter um grande número de dados que seriam coletados de forma rápida e pouco custosa. Usar um planejamento fatorial para esse caso não seria necessário, uma vez que o ato de coletar os dados não impoẽm uma barreira à fluidez do experimento; muito menos significa um acréscimo substancial dos gastos por dado adicional coletado.
+
+Como conclusão, podemos afirmar que não existe uma regra para guiar a escolha dos pontos experimentais. Cada caso terá suas particularidades, que influenciarão a definição da melhor abordagem para a coleta dos dados. Contudo, independentemente do método, os pontos experimentais devem ser escolhidos de forma a atender os objetivos do experimento e serem representativos da região de estudo.
+
+Para mais informações, o link a seguir aprofunda o tópico coleta de dados:
+https://blog.mettzer.com/coleta-de-dados/
+
+
+Coleta de dados
+E abaixo, os pilares para a coleta de dados:
+
+![alt text](image-17.png)
+
