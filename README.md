@@ -84,3 +84,5 @@ Ao fazermos um planejamento dos experimentos, evitamos uma série de erros que p
 Chamar um estatístico depois que o experimento foi feito pode ser o mesmo que pedir para ele fazer um exame post-mortem. Talvez ele consiga dizer do que foi que o experimento morreu.
 
 Devemos nos planejar, freando um pouco a ansiedade de obter dados e respostas rapidamente. Planejar o experimento também significa que os dados utilizados na fase de análise e estatística terão qualidade adequada para responder às nossas perguntas. No próximo vídeo aprenderemos a planejar a coleta de dados.
+
+![alt text](image-1.png)
