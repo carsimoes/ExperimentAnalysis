@@ -31,6 +31,8 @@ Planejar e executar um experimento usando a receita da Bel como sistema de estud
 
 3 - Planejar é preciso
 
+![alt text](image.png)
+
 Vimos anteriormente que Bel decidiu realizar um experimento para entender melhor a sua receita de cupcakes (o sistema a ser analisado), e agora precisamos refletir sobre como tal experimento será conduzido.
 
 A ideia é variarmos a quantidade de farinha e chocolate, quantificando, ao final de cada fornada, o número de cupcakes por exemplo. Por exemplo, vamos supor a utilização de 500 gramas de farinha e 100 gramas de chocolate. Ao final da primeira fornada, ela anota que foi produzida uma porção de cupcakes. Repetindo o experimento com 1000 gramas de farinha e 300 de chocolate, ela obteve 2 porções. A receita foi repetida várias vezes, enquanto Bel considerou necessário (que podemos chamar de "N vezes").
