@@ -253,3 +253,45 @@ Como dito, tradicionalmente o planejamento fatorial utiliza as variáveis normal
 
 
 Que tal agora você explorar os conhecimentos adquiridos ao longo desta aula. Como sugestão, pense em outros problemas que poderiam ser resolvidos através de um experimento (Quem sabe um outra receita). Formule o objetivo, defina as variáveis manipuláveis e a resposta do experimento, esboce a área de experimentação e como ficaria o planejamento fatorial deste experimento.
+
+-----------------
+
+Inserindo o experimento em um dataframe
+
+[00:00] Agora que nós concluímos a fase de planejamento, nós vamos iniciar a análise dos dados que a Bel coletou no seu experimento. Para isso, nós vamos usar um notebook do Jupyter. Esse notebook, ele foi pensado para que nós fossemos preenchendo ele juntos, irá facilitar bastante o entendimento dos conceitos que serão apresentados no restante do curso.
+
+[00:24] Se você ainda não fez o download desse notebook, pausa agora o vídeo, vai na página do curso e faz o download da seguinte pasta: “Aula_Planejamentos _experimentos”. Dentro dessa pasta, você encontra o notebook com... no notebook do Jupyter, onde a gente irá realizar o trabalho.
+
+[00:44] Vamos voltar aqui para o Jupyter, vou apertar “F11” para expandir a tela. O nosso objetivo nesse primeiro vídeo é que nós inserimos os ensaios experimentais da Bel, assim como os resultados dentro de um DataFrame do Pandas e nós possamos usar esse DataFrame para facilitar a análise dos dados e a manipulação dos valores ao longo do restante do curso.
+
+[01:13] A primeira coisa, vamos importar algumas bibliotecas, vamos importar inicialmente o Pandas, então vamos importar o Pandas, “import pandas as pd”, sendo esse “pd” um apelido que a gente está dando para o Pandas. Vamos importar também o Numpy, que o Numpy, a gente vai trabalhar com algumas matrizes ao longo desse curso.
+
+[01:35] Então, também precisamos importar, para importar o Numpy é “import numpy as np”. Pronto, importamos o Numpy. Temos aqui o planejamento fatorial da Bel, temos nessa tabela aqui cada um dos quatro ensaios que ela realizou. Não podemos esquecer que nível inferior das quantidades é igual a “-1” e nível superior igual a “+1”.
+
+[02:03] Nessa última coluna aqui, nós temos o resultado de cada um dos experimentos, de cada um dos ensaios. Ou seja, a quantidade de cupcakes produzidos em cada uma dessas quatro condições. Alguém podem me perguntar: “Mas a gente não vai ver a Bel fazendo o experimento, botando a mão na massa?”.
+
+[02:22] Não precisa, basta dizer que a Bel seguiu todo aquele planejamento que a gente discutiu anterior, então a gente confia nesses resultados e vamos assumir eles, seguindo esse planejamento. Eu quero construir agora uma matriz com os ensaios e essa matriz vai ser inserida dentro de um DataFrame do Pandas.
+
+[02:44] Então, vamos chamar essa matriz de ensaios, para construir ela, eu vou usar o método array do Numpy, então np.array, abro parênteses, depois eu vou abrir aqui o colchetes e vou agora inserir cada uma das linhas do meu experimento. O primeiro é “-1, -1”, segunda linha “+1, -1”, terceira linha, vamos com força, sem desanimar, “-1, +1”, não precisa por esse “+1”, mas se precisar, não faz diferença.
+
+[03:36] E a nossa última linha aqui, nós vamos colocar “+1, +1”. Pronto. Apesar de rápido fazermos isso, é meio maçante colocar essa quantidade maçante de dados aqui e assim, temos poucos dados e já foi bem trabalhosa, imagina se tivéssemos muitos ensaios, o quão demorado seria.
+
+[04:00] E quanto maior o número de ensaios, a gente poderia ter cometido um erro, colocado um mais onde não era, colocado um menos onde não era e isso poderia gerar problemas. Felizmente, existe uma biblioteca em Python, que auxilia a construção de planejamentos fatoriais.
+
+[04:19] O nome dessa biblioteca é pyDOE, para importar o pyDOE, vamos importar o pyDOE, então é import pyDOE2, não pode esquecer esse “2”, eu já explico o porquê, import pyDOE2 as doe, sendo “doe” esse apelido que a gente está dando aqui para o pyDOE, então vamos importar.
+
+[04:39] Por que que o “2” é importante? Existe um biblioteca chamada pyDOE sem o “2”, mas essa biblioteca não funciona muito bem no Python3. Então, assim, para evitar problemas, use, instale na sua máquina e use o pyDOE número “2” e assim, vai funcionar corretamente sem problemas nenhum.
+
+[04:59] Para nós construirmos nossos ensaios fatoriais, os nossos ensaios aqui usando o pyDOE, vamos novamente chamar esses ensaios de ensaios, igual fizemos anteriormente, para isso vamos usar o método do pyDOE chamado “ff2n”, ou seja, ensaios fatoriais com dois níveis, nível inferior e nível superior.
+
+[05:24] Dentro do parênteses, vamos colocar o número de variáveis manipuláveis, no nosso caso são duas, farinha e chocolate. Vamos rodar, vamos escrever aqui: ensaios, para ver como é que ficou. Ele aqui gerou, o método aqui gerou automaticamente um array, uma matriz com o planejamento.
+
+[05:48] Vamos que ele é exatamente esse que nós descrevemos aqui, demoramos bastante para escrever. Então, assim, usem isso que irá facilitar e irá evitar que nós cometamos erro ao construir planejamentos fatoriais aqui no Jupyter ou quando estivermos usando o Python para fazer isso.
+
+[06:06] Então, vamos agora pegar esses ensaios e inserir dentro de um DataFrame do Pandas, para isso, eu vou chamar esse DataFrame de experimento, vou chamar o “pd” de Pandas DataFrame, abro parênteses. Vou passar o nome da matriz que vai ser os dados desse DataFrame, que no nosso caso é ensaios e eu vou dar o nome das colunas de cada coluna do DataFrame.
+
+[06:42] A primeira coluna vai ser farinha e a segunda coluna chocolate. Vamos rodar, vamos ver como é que ficou o DataFrame. Então aqui temos, temos a coluna, as colunas com farinha e chocolate, os ensaios, os valores de cada quantidade normalizadas. Temos quatro ensaios, não esquecendo que no Pandas, ele começa do zero e vai até o três.
+
+[07:14] Agora, precisamos inserir os resultados, ou seja, o número de porções obtidas em cada ensaio. Então, vemos aqui que o número dessas porções, os resultados é 19, 37, 24 e 49. Vamos colocar aqui, para isso vamos: experimento, vamos inserir um coluna chamada “porcoes”, sem cedilha e vamos passar uma lista com os resultados, que é 19, 37, 24 e 49.
+
+[07:52] Opa, temo que colocar o finalzinho da lista e vamos ver como é que ficou. Rodando. Temos agora aqui todos os nossos ensaios, que nós fizemos com as suas respectivas respostas no DataFrame do Pandas. Nós vamos usar esse DataFrame para fazer as análises e assim será muito mis fácil manipular esses dados e tirar conclusões. Até mais.
