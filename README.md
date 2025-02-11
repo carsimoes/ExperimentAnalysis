@@ -329,3 +329,41 @@ Modelo estatistico
 
 [04:50] Agindo dessa forma, nós vamos ser capazes de dizer qual desses efeitos é o mais importante e segundo, entender realmente se existe um efeito de interação entre a farinha e o chocolate para definir a quantidade de cupcakes produzidos. Nós iremos fazer isso pelo ajuste desse parâmetro logo mais. Até mais.
 
+
+Ajustando o modelo estatístico
+
+[00:00] Tendo agora definido o nosso modelo estatístico, a nossa missão será encontrar os valores de beta zero, beta um, beta dois e beta três, para que o nosso modelo possa representar os dados experimentais coletados pela Bel. O nome desse procedimento é ajuste dos parâmetros do modelo.
+
+[00:22] Ao fazer isso, nós vamos ter valores numéricos que irão nos auxiliar a entender qual efeito é mais importante na definição da quantidade de cupcakes produzidos, assim como também será possível nós testarmos aquela hipótese, se existe ou não uma interação entre a farinha e o chocolate.
+
+[00:44] Para fazer esse ajuste, nós vamos usar uma biblioteca do Python chamada StatsModel, essa biblioteca, ela é bastante robusta e completa para fazer análises estatísticas. Para importar essa biblioteca, vamos usar o seguinte comando: import statsmodels.api, vamos dar as, vamos dar um apelido para essa biblioteca de sm.
+
+[01:13] “Shift + Enter” para rodar, está rodando perfeitamente. Nós precisamos importar um outro módulo do StatsModel, que ele irá auxiliar nós a escrevermos o nosso modelo como se fosse uma função, isso irá facilitar o procedimento de ajuste, a definição da fórmula para o procedimento de ajuste.
+
+[01:33] Então, vamos importar esse novo módulo, então fica: import statsmodels.formula.api as smf. “Shift + Enter” para rodar, está importando perfeitamente. O que nós devemos fazer agora? Nós vamos usar um método do StatsModel chamado ols, esse método, ele irá ajustar os coeficientes do modelo aos dados experimentais.
+
+[02:09] Precisamos inicialmente construir um modelo, vamos chamar este modelo de modelo, ou seja, para facilitar o nosso diálogo, então modelo recebe smf.ols, ou seja, o método, a função que será usada para fazer o ajuste. O primeiro parâmetro do ols será os dados que serão usados para fazer o ajuste.
+
+[02:32] Dentro do parâmetro data, vamos passar o DataFrame com os dados experimentais que a Bel realizou, os dados experimentais que a Bel coletou. Então, o nome desse DataFrame é experimento. Vamos agora definir a fórmula, ou seja, o nosso modelo estatístico para que possa ser feito o ajuste.
+
+[02:53] Essa fórmula é definida entre aspas, então vamos primeiramente passar a resposta que estamos analisando, ou seja, a quantidade de cupcakes produzidos. Esta quantidade, ela é definida pela coluna do nosso DataFrame experimental, com as porções de cupcakes obtidas em cada um dos ensaios.
+
+[03:17] Então aqui na nossa resposta é porções, o StatsModel, ele não usa o sinal de igual, ao invés do sinal de igual, ele usa o tio, então, porções, igual, não precisamos colocar o valor do intercepto, ou seja, o valor do beta zero. O próprio método de ajuste, já vai inserir este parâmetro, então não precisamos fazer isso.
+
+[03:45] Vamos colocar o valor da coluna do nosso experimento referente à farinha, que representará o efeito isolado da farinha na quantidade de cupcakes produzidos, então temos farinha, temos chocolate e precisamos inserir o efeito de interação entre a farinha e o chocolate.
+
+[04:04] Então passamos farinha, dois pontos, que vai representar essa interação, chocolate. Vamos dar um “Shift + Enter” para rodar e está rodando perfeitamente. Agora que nós criamos o nosso modelo, nós precisamos fazer com que o ols ajuste os parâmetros deste modelo.
+
+[04:26] Para isso, vamos criar um modelo, nós vamos chamar de modelo ajustado, este modelo ajustado vai receber um modelo que nós criamos, ou seja, “modelo.” e o método fit do ols, que irá fazer o ajuste, então “.fit”, abre e fecha parênteses. “Shift + Enter” para rodar, ele ajustou o modelo.
+
+[04:53] Queremos agora ver a resposta desse ajuste, ou seja, os resultados que o método de ajuste encontrou. Para isso, vamos usar a seguinte expressão: print, abre e fecha parênteses, modelo_ajustado.summary, ou seja, ele irá fazer um sumário dos resultados do procedimento de ajuste.
+
+[05:19] Então, abre e fecha parênteses, “Shift + Enter”, nós obtemos aqui uma tabela, essa tabela tem uma série de análises estatísticas, de testes estatísticos, mas vamos focar aqui nessa parte central, onde nós temos os valores dos coeficientes ajustados do modelo.
+
+[05:38] Temos aqui incialmente o valor do intercepto, ou seja, o valor do beta zero do nosso modelo. Este intercepto nada mais é do que a média das quantidades de cupcakes obtidos nos ensaios que a Bel realizou, ou soja, se nós pegarmos as respostas dos quatros ensaios que a Bel realizou e tirarmos a média, nós vamos encontrar 32.25.
+
+[06:08] Aqui embaixo temos o efeito isolado da farinha, ou seja, 10.75, é o efeito isolado da farinha, da quantidade de cupcakes produzidos, temos aqui o efeito do chocolate e por fim, o efeito da interação da farinha com o chocolate. Então temos aqui o beta um, o beta dois e o beta três.
+
+[06:30] Podemos ao analisar esses coeficientes ajustados, que a farinha tem um maior efeito na quantidade de cupcakes produzidos, seguido do efeito do chocolate e por último da interação entre a farinha e o chocolate. O que nós precisamos fazer agora é avaliar do ponto de vista estatístico, se esses coeficientes ajustados são iguais ou diferentes de zero.
+
+[07:01] Se eles forem diferentes de zero, nós vamos dizer que eles influenciam do ponto de vista estatístico a quantidade de cupcakes produzidos, em outras palavras, nós vamos dizer que o coeficiente ajustado, ele é significativo. Este tipo de análise é chamada de análise de significância estatística e nós iremos fazer isso logo mais. Até mais.
