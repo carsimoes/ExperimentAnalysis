@@ -370,5 +370,11 @@ Ajustando o modelo estatístico
 
 
 intercept: média de cupcake obtidas nos ensaios
+Efeito isoado 10,75
+...
+
+A farinha tem maior efeito nos cupcakesp produzidos.
 
 ![alt text](image-20.png)
+
+Se os coeficientes forem diferentes de zero significa que eles influenciam o experimento.
