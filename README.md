@@ -367,3 +367,8 @@ Ajustando o modelo estatístico
 [06:30] Podemos ao analisar esses coeficientes ajustados, que a farinha tem um maior efeito na quantidade de cupcakes produzidos, seguido do efeito do chocolate e por último da interação entre a farinha e o chocolate. O que nós precisamos fazer agora é avaliar do ponto de vista estatístico, se esses coeficientes ajustados são iguais ou diferentes de zero.
 
 [07:01] Se eles forem diferentes de zero, nós vamos dizer que eles influenciam do ponto de vista estatístico a quantidade de cupcakes produzidos, em outras palavras, nós vamos dizer que o coeficiente ajustado, ele é significativo. Este tipo de análise é chamada de análise de significância estatística e nós iremos fazer isso logo mais. Até mais.
+
+
+intercept: média de cupcake obtidas nos ensaios
+
+![alt text](image-20.png)
