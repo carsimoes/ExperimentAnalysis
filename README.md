@@ -295,3 +295,33 @@ Inserindo o experimento em um dataframe
 [07:14] Agora, precisamos inserir os resultados, ou seja, o número de porções obtidas em cada ensaio. Então, vemos aqui que o número dessas porções, os resultados é 19, 37, 24 e 49. Vamos colocar aqui, para isso vamos: experimento, vamos inserir um coluna chamada “porcoes”, sem cedilha e vamos passar uma lista com os resultados, que é 19, 37, 24 e 49.
 
 [07:52] Opa, temo que colocar o finalzinho da lista e vamos ver como é que ficou. Rodando. Temos agora aqui todos os nossos ensaios, que nós fizemos com as suas respectivas respostas no DataFrame do Pandas. Nós vamos usar esse DataFrame para fazer as análises e assim será muito mis fácil manipular esses dados e tirar conclusões. Até mais.
+
+
+Modelo estatistico
+
+[00:00] Nas análises gráficas que nós realizamos anteriormente, nós chegamos a duas importantes hipóteses, a primeira é que existe algum efeito de interação entre a quantidade de farinha e a quantidade de chocolate e a segunda hipótese, é que o efeito da farinha, ele é maior que o efeito do chocolate na quantidade de cupcakes produzidos.
+
+[00:26] Agora, a questão é, como que nós comprovamos essa hipótese e principalmente, como que nós damos embasamento à essa comprovação usando a estatística? Uma possibilidade é nós descrevermos o nosso experimento matematicamente, para isso, vamos entende as relações existentes na elaboração do nosso experimento.
+
+[00:49] Então, primeiramente, nós temos as porções, ou seja, as resposta que a gente está analisando, que é a quantidade de cupcakes produzidos. Essas porções, elas são influenciadas pela quantidade de farinha, pela quantidade de chocolate e nós vamos introduzir um terceiro elemento nessa relação, que é o efeito da interação entre a farinha e o chocolate.
+
+[01:13] Vamos colocar essa representação aqui de uma forma mais matemática. Para isso, vamos chamar a porção de “P”, que vai ser a resposta da nossa expressão, a quantidade de farinha, ela vai ser uma variável, ou seja, vamos chamar ela de “Xfarinha”, então esse “Xfarinha” vai receber a quantidade de farinha que nós estamos usando no experimento.
+
+[01:37] Por conseguinte, a quantidade de chocolate vai ser representada matematicamente por “Xchocolate” e o efeito de interação entre a farinha e o chocolate será representada pela multiplicação dessas duas variáveis. Para nós transformarmos essa relação aqui matemática, inicial, em uma igualdade e nós podermos usar ela para prever os resultados no nosso experimento, nós precisamos inserir alguns parâmetros.
+
+[02:10] Então, vamos ver juntos e com calma, quais serão esses parâmetros que serão inseridos. Primeiramente, vamos colocar aqui o “P”, logo, temos “P”, ou seja, a quantidade de cupcakes produzidos, ele vai ser igual, primeiramente a um parâmetro, que a gente vai chamar de beta zero, que ele é o intercepto do nosso modelo, o que que é esse intercepto?
+
+[02:33] Ele nada mais diz, que a média das respostas experimentais que nós objetivos ao longo do nosso estudo, ou seja, se pegarmos aqueles quatro ensaios, pegarmos naquela coluna as respostas, somarmos e tirarmos a média daqueles valores, vai ser o valor do intercepto.
+
+[02:54] A farinha, ou seja, o efeito da farinha será contabilizado por um parâmetro chamado beta um, que ele vai dizer quão importante o efeito da farinha é na quantidade de cupcakes produzidos. Logo, o beta dois vai fazer o mesmo papel, só que para o efeito do chocolate.
+
+[03:15] Esses dois conjuntos que acabamos de ver, eles serão os efeito isolados de cada uma das variáveis manipuláveis, o efeito da interação vai se contabilizado por um terceiro parâmetro, que será chamado de beta 3, ele vai nos dizer o quão importante é o efeito de interação para definir a quantidade de cupcakes produzidos.
+
+[03:41] Nós estamos desenvolvendo esse modelo e para que esse modelo realmente fique completo, nós precisamos introduzir um outro parâmetro, que nós vamos chamar de erro. Esse erro, ele vai contabilizar a incapacidade do modelo de representar os dados experimentais.
+
+[04:02] Usando essa expressão, nós chegamos no que é chamado de modelo estatístico, ou seja, uma representação matemática do nosso experimento. O que nós iremos fazer? Nós iremos ajustar cada um desses parâmetros, o beta zero, o beta um, o beta dois, beta três, ajustar esses dados aos nossos dados experimentais.
+
+[04:29] E nós vamos usar esses valores já ajustados para entender a importância de cada um desses parâmetros. Entendendo a importância de cada um desses parâmetros, o nosso segundo passo será avaliar a significância estatística, ou seja, a importância estatística de cada um desses parâmetros.
+
+[04:50] Agindo dessa forma, nós vamos ser capazes de dizer qual desses efeitos é o mais importante e segundo, entender realmente se existe um efeito de interação entre a farinha e o chocolate para definir a quantidade de cupcakes produzidos. Nós iremos fazer isso pelo ajuste desse parâmetro logo mais. Até mais.
+
