@@ -299,6 +299,8 @@ Inserindo o experimento em um dataframe
 
 Modelo estatistico
 
+![alt text](image-18.png)
+
 [00:00] Nas análises gráficas que nós realizamos anteriormente, nós chegamos a duas importantes hipóteses, a primeira é que existe algum efeito de interação entre a quantidade de farinha e a quantidade de chocolate e a segunda hipótese, é que o efeito da farinha, ele é maior que o efeito do chocolate na quantidade de cupcakes produzidos.
 
 [00:26] Agora, a questão é, como que nós comprovamos essa hipótese e principalmente, como que nós damos embasamento à essa comprovação usando a estatística? Uma possibilidade é nós descrevermos o nosso experimento matematicamente, para isso, vamos entende as relações existentes na elaboração do nosso experimento.
