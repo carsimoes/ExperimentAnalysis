@@ -378,3 +378,16 @@ A farinha tem maior efeito nos cupcakesp produzidos.
 ![alt text](image-20.png)
 
 Se os coeficientes forem diferentes de zero significa que eles influenciam o experimento.
+
+
+Nessa aula, aprendemos:
+
+Inserir os dados experimentais num Data Frame do pandas;
+
+Usar a biblioteca pyDOE2 para gerar planejamentos fatoriais;
+
+Fazer análises gráficas preliminares do experimento;
+
+Propor um modelo estatístico;
+
+Ajustar o modelo estatístico aos dados experimentais usando o StatsModel.
